@@ -11,19 +11,6 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
-.footer {
-    background-color: pink;
-    color: black;
-    width: 100%;
-    flex-direction: row;
-    line-height: 50px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-    align-items: stretch;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
 .list-unstyled {
     list-style-type: none;}
 .bg-dark {
@@ -57,9 +44,12 @@
     text-align: center;
     font-style: italic;
     color: black;
-    font-size: 200%;
-}   
-
+font-size: 200%;
+    
+}
+    
+    
+  }
 .jumbotron form {
     margin-left: 50%;
 }
@@ -71,8 +61,6 @@
     box-sizing: border-box;
     padding: 10px;
     justify-content: space-evenly;
-    margin-left: 30%;
-    
     
 }
 .highlight-img {
@@ -101,57 +89,4 @@
 .shop-more {
     color: black;
     text-align: center;
-}
-.product-items{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    background-color:rgb(245, 245, 245);
-    padding: 3cm;
-
-}
-.product {
-    background-color:white;
-    margin: 1cm;
-}
-.product-header{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-
-}
-.img-detail{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.img-detail a {
-    color: rgb(255, 94, 0);
-    padding-top: 2cm;
-    padding-right: 2cm;
-    font-size: 150%;
-    font-style: italic;
-    
-}
-.product-details{
-    display: flex;
-    flex-direction: column;
-    padding-right: 2cm;
-    padding-left: 2cm;
-    border-bottom: 0.5px dotted;
-}
-.detailsHeader{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.cart-colo{
-    color: orangered;
-    background-color: whitesmoke;
-}
-.buttons{
-    color: orangered;
-    background-color: blanchedalmond;
-    font-weight: bolder
 }
