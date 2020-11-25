@@ -5,24 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link rel="stylesheet" href="./style.css">
+    <script
+      src="icons/fontawesome.js"
+      crossorigin="anonymous"
+    ></script>
     <title> DIEGO SHOPPING CENTRE</title>
 </head>
 <body>
    <nav id="navbar" class="bg-dark">
-            <a href="index.html" class="bg-dark">HOME</a>
-            <a href="" class="bg-dark">ABOUT US</a>
-            <a href="cart.html" class="bg-dark">CART</a>
+            <a href="index.html" class="bg-dark"><i class="fas fa-home"></i>HOME</a>
+            <a href="" class="bg-dark"><i class="far fa-address-card"></i>ABOUT US</a>
+            <a href="cart.html" class="bg-dark"><i class="fas fa-shopping-cart"></i>CART</a>
             <p> <button>sign Up</button></p>
-            <a href="" class="bg-dark">LOG IN </a>
+            <a href="" class="bg-dark"><i class="fas fa-sign-in-alt"></i>log in</a>
 
    </nav>
    <header >
     <section class="jumbotron">
        <h1><u>DIEGO SHOPPING CENTRE</u></h1>
        <p>“Menswear Founded on Fit, Built on Service, and Focused on Style. However You Fit, DIEGO CENTRE Fits You.”</p>
-      <form>
-        <input type="search" placeholder="Search for a product"/>
-      </form>
+       <p class="search">Search: <input type="search" placeholder="Search for a product" size="40" ><p>
      </section>
    </header>
     <section class="container">
@@ -32,6 +34,7 @@
                 <hr>
             </div>
             <div class="shoping-items">
+             <div class="product">
                 <div class="highlight-img">
                  <h3>Men's Jacket Coat Slim </h3>
                  <a><img src="Men's-Jacket-Coat-Slim-Fit-Stand-Collar-Winter-Long-Sleeve-Jacket-blue.jpg" alt="Men's Jacket Coat Slim Fit Stand Collar Winter Long Sleeve Jacket-blue" width="200" height="300"></a>
@@ -39,8 +42,11 @@
                 <div class="highlight-description">
                     <p>Men's Jacket Coat Slim Fit Stand Collar Winter Long Sleeve Jacket-blue</p>
                     <h3>KSH 1000</h3>
-                    <h4><a href="">ADD TO CART</a></h4>
-                </div>     
+                    <h4><a class="cart-colo" href="cart.html">ADD TO CART</a></h4>
+                </div>  
+             </div> 
+
+             <div class="product">
                 <div class="highlight-img">
                  <h3>Mens 2 In 1 Short Suits Short</h3>
                  <img src="Mens-2-In-1-Short-Suits-Short-Sports-Suit-Black.jpg" alt="Mens 2 In 1 Short Suits Short Sports Suit-Black" width="200" height="300">
@@ -48,9 +54,10 @@
                 <div class="highlight-description">
                     <p>Mens 2 In 1 Short Suits Short Sports Suit-Black</p>
                     <h3>KSH 890</h3>
-                    <h4><a href="">ADD TO CART</a></h4>
-                </div>    
-             
+                    <h4><a class="cart-colo" href="cart.html">ADD TO CART</a></h4>
+                </div>
+             </div>    
+             <div class="product">
                 <div class="highlight-img">
                  <h3>Soft Khaki Trouser</h3>
                  <img src="Soft-Khaki-Trouser-Stretch-Slim-Fit-Casual-off-white.jpg" alt="Mens 2 In 1 Short Suits Short Sports Suit-Black" width="200" height="300">
@@ -58,9 +65,11 @@
                 <div class="highlight-description">
                  <p>Soft Khaki Trouser Stretch Slim Fit Casual- off white</p>
                  <h3>KSH 900</h3>
-                 <h4><a href="">ADD TO CART</a></h4>
-                </div>     
-
+                 <h4><a class="cart-colo" href="cart.html">ADD TO CART</a></h4>
+                </div> 
+             </div>  
+               
+             <div class="product">
                 <div class="highlight-img">
                  <h3>Soft Khaki Trouser</h3>
                  <img src="Solid-Long-Sleeve-Dress-Shirts-Teal.jpg" alt="Solid Long Sleeve Dress Shirts Teal" width="200" height="300">
@@ -68,9 +77,9 @@
                 <div class="highlight-description">
                     <p>Solid Long Sleeve Dress Shirts Teal</p>
                     <h3>KSH 1200</h3>
-                    <h4><a href="">ADD TO CART</a></h4>
+                    <h4><a class="cart-colo" href="cart.html">ADD TO CART</a></h4>
                 </div>   
-             
+             </div>
             </div>
              
         </div>

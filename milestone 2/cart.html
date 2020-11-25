@@ -5,26 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link rel="stylesheet" href="./style.css">
+    <script
+      src="icons/fontawesome.js"
+      crossorigin="anonymous"
+    ></script>
     <title> DIEGO SHOPPING CENTRE</title>
 </head>
 <body>
     <nav id="navbar" class="bg-dark">
-             <a href="index.html" class="bg-dark">HOME</a>
-             <a href="" class="bg-dark">ABOUT US</a>
-             <a href="" class="bg-dark">CART</a>
-             <p> <button>sign Up</button></p>
-             <a href="" class="bg-dark">LOG IN </a>
+      <a href="index.html" class="bg-dark"><i class="fas fa-home"></i>HOME</a>
+      <a href="" class="bg-dark"><i class="far fa-address-card"></i>ABOUT US</a>
+      <a href="cart.html" class="bg-dark"><i class="fas fa-shopping-cart"></i>CART</a>
+      <p> <button>sign Up</button></p>
+      <a href="" class="bg-dark"><i class="fas fa-sign-in-alt"></i>log in</a>
  
     </nav>
     <header >
      <section class="jumbotron">
         <h1><u>DIEGO SHOPPING CENTRE</u></h1>
         <p>“Menswear Founded on Fit, Built on Service, and Focused on Style. However You Fit, DIEGO CENTRE Fits You.”</p>
-       <form>
-         <input type="search" placeholder="Search for a product"/>
-       </form>
+        <p class="search">Search: <input type="search" placeholder="Search for a product" size="40" ><p>
       </section>
     </header>
+    <div class="title">
+      <h2>ITEMS IN CART</h2>
+    </div>
+    <div class="allproductsincart">
      <div class="product-details">
       <div class="detailsHeader">
         <h3>Mens 2 In 1 Short Suits Short</h3>
@@ -40,12 +46,12 @@
       <form>
         <label>Quantity:</label><br>
         <input type="number"><br>
-        <button class="buttons">ORDER NOW</button><br>
-        <button class="buttons">REMOVE FROM CART</button>
+        <div class="margin-cart" ><button class="buttons">ORDER NOW</button></div><br>
+        <div class="margin-cart"><button class="buttons">REMOVE FROM CART</button></div>
       </form>
-    </div>
+     </div>
 
-    <div class="product-details">
+     <div class="product-details">
       <div class="detailsHeader">
         <h3>HOODED QUILTED</h3>
         <h3>KSH 1300</h3>
@@ -58,11 +64,11 @@
       <form>
         <label>Quantity:</label><br>
         <input type="number"><br>
-        <button class="buttons">ORDER NOW</button><br>
-        <button class="buttons">REMOVE FROM CART</button>
+        <div class="margin-cart" ><button class="buttons">ORDER NOW</button></div><br>
+        <div class="margin-cart"><button class="buttons">REMOVE FROM CART</button></div>
       </form>
+     </div>
     </div>
-
 
 
     <footer class="footer">
